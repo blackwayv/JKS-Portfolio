@@ -1,0 +1,36 @@
+{
+  "name": "jks-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bundle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "build": "webpack -w",
+    "go": "webpack -w && node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blackwayv/jks-portfolio.git"
+  },
+  "author": "blackwayv",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blackwayv/jks-portfolio/issues"
+  },
+  "homepage": "https://github.com/blackwayv/jks-portfolio#readme",
+  "devDependencies": {
+    "@babel/preset-react": "^7.7.4",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^4.5.0"
+  },
+  "dependencies": {
+    "@babel/core": "^7.7.7",
+    "express": "^4.17.1",
+    "file-loader": "^6.2.0",
+    "jquery": "^3.5.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  }
+}
