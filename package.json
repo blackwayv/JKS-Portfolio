@@ -6,8 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "build": "webpack -w",
-    "go": "webpack -w && node server.js"
+    "build": "webpack -w"
   },
   "repository": {
     "type": "git",
@@ -31,6 +30,7 @@
     "file-loader": "^6.2.0",
     "jquery": "^3.5.1",
     "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "react-dom": "^16.12.0",
+    "webpack-node-externals": "^2.5.2"
   }
 }

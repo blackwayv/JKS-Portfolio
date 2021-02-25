@@ -1,3 +1,5 @@
+let nodeExternals = require('webpack-node-externals');
+
 module.exports = {
     entry: './client/app.jsx',
     output: {
@@ -7,7 +9,7 @@ module.exports = {
     resolve: {
       extensions: ['.js', '.jsx']
     },
-    mode: 'development',
+    mode: 'production',
     module: {
       rules: [
         {
@@ -22,8 +24,10 @@ module.exports = {
         },
         {
           test: /\.(gif|svg|jpg|png)$/,
-          loader: "file-loader",
+          loader: 'file-loader',
         }
       ]
-    }
+    },
+    target: 'node',
+    externals: [nodeExternals()],
   }
