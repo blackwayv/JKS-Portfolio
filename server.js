@@ -13,3 +13,5 @@ app.use((req, res, next) => {
   );
   next();
 });
+
+app.use("/osrs", express.static(__dirname + '/portfolio-files/OSRS-Planner-App/dist'));

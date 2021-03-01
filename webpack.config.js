@@ -1,7 +1,7 @@
 let nodeExternals = require('webpack-node-externals');
 
 module.exports = {
-    entry: './client/app.jsx',
+    entry: __dirname + '/client/app.jsx',
     output: {
       path: __dirname + '/dist',
       filename: 'bundle.js'
@@ -14,7 +14,10 @@ module.exports = {
       rules: [
         {
           test: [/\.jsx$/],
-          exclude: /node_modules/,
+          exclude: [
+            '/portfolio-files',
+            '/node_modules/'
+          ],
           use: {
             loader: 'babel-loader',
             options: {
