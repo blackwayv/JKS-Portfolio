@@ -15,3 +15,4 @@ app.use((req, res, next) => {
 });
 
 app.use("/osrs", express.static(__dirname + '/portfolio-files/OSRS-Planner-App/dist'));
+app.use("/osrs", express.static(__dirname + '/portfolio-files/OSRS-Planner-App/fonts'));

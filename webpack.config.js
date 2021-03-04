@@ -14,14 +14,11 @@ module.exports = {
       rules: [
         {
           test: [/\.jsx$/],
-          exclude: [
-            '/portfolio-files',
-            '/node_modules/'
-          ],
+          exclude: [ '/portfolio-files', '/node_modules' ],
           use: {
             loader: 'babel-loader',
             options: {
-              presets: ['@babel/preset-react']
+              presets: ['@babel/preset-react', '@babel/preset-env']
             }
           }
         },
@@ -32,5 +29,5 @@ module.exports = {
       ]
     },
     target: 'node',
-    externals: [nodeExternals()],
+    // externals: [nodeExternals({ importType: 'umd' })]
   }
