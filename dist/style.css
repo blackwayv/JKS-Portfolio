@@ -5,11 +5,18 @@ body {
 
 .banner {
   width: 100%;
-  background-color: grey;
+  height: 20%;
+  background-color: darkturquoise;
   color: white;
   position: absolute;
 }
 
 .links {
   float: right;
+}
+
+.bbutton {
+  border: 1px solid white;
+  padding: 1rem;
+  display: inline;
 }

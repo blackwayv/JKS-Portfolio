@@ -2,13 +2,13 @@ const express = require('express');
 const app = express();
 const bodyParser = require('body-parser')
 const controllers = require('./controllers');
+const hiscores = require('osrs-json-hiscores');
 
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json());
 
 app.listen(3000, () => console.log('jks-portfolio listening on port 3000!'));
 app.use(express.static('dist'));
-// app.use(express.static('fonts'));
 
 app.use((req, res, next) => {
   res.header('Access-Control-Allow-Origin', '*');
@@ -37,4 +37,9 @@ app.get('/products/:product_id/styles', (req, res) => {
 
 app.get('/products/:product_id/related', (req, res) => {
   controllers.related(req.params.product_id, result => res.send(result));
+});
+
+app.get('/stats/:rsn', (req, res) => {
+  console.log(req.params.rsn);
+  hiscores.getStats(req.params.rsn).then(response => res.send(response));
 });

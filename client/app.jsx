@@ -21,9 +21,9 @@ class App extends React.Component {
         <div className='banner'>
           <div className='name'>Joshua K Smith</div>
           <div className='title'>Full-Stack Software Engineer</div>
-          <div className='links'>where icons and links go
-            <a href='/osrs'>OSRS Planner App</a>
-            <a href='/greenfield'>Greenfield Retail Portal</a>
+          <div className='links'>
+            <div className='bbutton' onClick={e => window.location='/osrs'}>OSRS Planner App</div>
+            <div className='bbutton' onClick={e => window.location='/greenfield'}>Greenfield Retail Portal</div>
           </div>
         </div>
       </div>
