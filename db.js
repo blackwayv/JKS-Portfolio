@@ -1,6 +1,6 @@
 const pg = require('pg');
 const pgClient = new pg.Client({
-  host: 'ec2-3-140-210-187.us-east-2.compute.amazonaws.com',
+  host: 'localhost',
   port: 5432,
   database: 'greenfield',
   user: 'postgres',

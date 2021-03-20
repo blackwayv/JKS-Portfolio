@@ -1,22 +1,70 @@
 body {
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Calibri', sans-serif;
 }
 
 .banner {
   width: 100%;
-  height: 20%;
-  background-color: darkturquoise;
+  height: 9rem;
+  background-color: turquoise;
   color: white;
-  position: absolute;
 }
 
 .links {
   float: right;
+  margin-right: 12.5%;
+  margin-top: 6.4rem;
 }
 
 .bbutton {
-  border: 1px solid white;
+  background-color: #7A82AB;
+  border-radius: 1.2rem;
   padding: 1rem;
   display: inline;
+  margin-left: 1rem;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.bbutton:hover {
+  background-color: white;
+  color: turquoise;
+}
+
+.id {
+  margin-left: 12.5%;
+  margin-top: 4rem;
+  display: inline-block;
+}
+
+.name {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.title {
+  font-size: 1.5rem;
+}
+
+.innerbody {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bio, .skills {
+  border: 4px solid turquoise;
+  background-color: #7A82AB;
+  width: 75%;
+  color: white;
+  border-radius: 1.2rem;
+  margin-top: 2rem;
+  padding: 2rem;
+  font-size: 1.1rem;
+  box-sizing: border-box;
+}
+
+.header {
+  font-size: 1.7rem;
+  font-weight: bold;
 }
