@@ -24,14 +24,18 @@ class App extends React.Component {
             <div className='title'>Full-Stack Software Engineer</div>
           </div>
           <div className='links'>
+            <div className='bbutton res' onClick={e => window.open('https://docs.google.com/document/d/1lLXmaLU4-oZxpQoHOjwP-nNQXwC-_vCoBK3UaR-B1uk/edit?usp=sharing','_blank')}>Resume</div>
+            <div className='bbutton lin' onClick={e => window.open('https://www.linkedin.com/in/joshuasmith117/','_blank')}>LinkedIn</div>
+            <div className='bbutton git' onClick={e => window.open('https://github.com/blackwayv','_blank')}>GitHub</div>
             <div className='bbutton' onClick={e => window.location='/osrs'}>OSRS Planner App</div>
-            <div className='bbutton' onClick={e => window.location='/greenfield'}>Greenfield Retail Portal</div>
+            <div className='bbutton gre' onClick={e => window.location='/greenfield'}>Greenfield Retail Portal</div>
           </div>
         </div>
         <div className='innerbody'>
           <div className='bio'>
             <div className='header'>Bio</div>
-            <p>My name is Joshua Smith, and I’m a Full-Stack Software Engineer. At Galvanize, I worked 11 hours a day, 6 days a week for 12 weeks to train myself in JavaScript, Node, React, and much more. Something that program really ingrained in me was being autonomous. For example, I was tasked with creating a ratings and reviews section and the API solo, which I completed. My experience with agile workflow makes me a good fit for any software engineering team. When I’m not coding or taking care of my daughter, I’m playing video games or snowboarding.</p>
+            <p>Hello, I'm Joshua K Smith, and I'm a Software Engineer. I recieved a Certificate of Software Engineering from Galvanize/Hack Reactor in January 2020.</p>
+            <p>I attended University of Wyoming studying Computer Science for a couple of years, but ultimately decided that college wasn't for me. I currently work at Lowe's and code in my spare time; looking for a breakthrough into the industry.</p>
           </div>
           <div className='skills'>
             <div className='header'>Skills</div>
@@ -41,8 +45,7 @@ class App extends React.Component {
             Testing - Mocha, Chai, Jest<br />
             Tools - Git, npm, Webpack, Babel, Trello, Amazon Web Services (EC2), Loader.io, K6<br />
             Techniques - Agile Development, Pair Programming, Test Driven Development</p>
-            <p><div>Other:</div>
-            I can do other stuff sometimes</p>
+            Other - C++ (Adept), Java (Beginner), Python (Beginner)
           </div>
         </div>
       </div>
