@@ -38,14 +38,13 @@ class App extends React.Component {
             <p>I attended University of Wyoming studying Computer Science for a couple of years, but ultimately decided that college wasn't for me. I currently work at Lowe's and code in my spare time; looking for a breakthrough into the industry.</p>
           </div>
           <div className='skills'>
-            <div className='header'>Skills</div>
-            <p><div>Technical:</div>
-            Front-End - JavaScript (ES6), React.js, jQuery, CSS3, HTML5, Bootstrap<br />
+            <div className='header'>Technical Skills</div>
+            <p>Front-End - JavaScript (ES6), React.js, jQuery, CSS3, HTML5, Bootstrap<br />
             Back-End - Node.js, Express, MySQL, SQLite, MongoDB, Mongoose, PostgreSQL<br />
             Testing - Mocha, Chai, Jest<br />
             Tools - Git, npm, Webpack, Babel, Trello, Amazon Web Services (EC2), Loader.io, K6<br />
-            Techniques - Agile Development, Pair Programming, Test Driven Development</p>
-            Other - C++ (Adept), Java (Beginner), Python (Beginner)
+            Techniques - Agile Development, Pair Programming, Test Driven Development
+            Other - C++ (Adept), Java (Beginner), Python (Beginner)</p>
           </div>
         </div>
       </div>
