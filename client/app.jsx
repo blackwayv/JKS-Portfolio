@@ -33,18 +33,23 @@ class App extends React.Component {
         </div>
         <div className='innerbody'>
           <div className='bio'>
-            <div className='header'>Bio</div>
-            <p>Hello, I'm Joshua K Smith, and I'm a Software Engineer. I recieved a Certificate of Software Engineering from Galvanize/Hack Reactor in January 2020.</p>
-            <p>I attended University of Wyoming studying Computer Science for a couple of years, but ultimately decided that college wasn't for me. I currently work at Lowe's and code in my spare time; looking for a breakthrough into the industry.</p>
+            <div className='bio1'>
+              <img src='prophoto2electricboogaloo.jpg'></img>
+            </div>
+            <div className='bio2'>
+              <div className='header'>Bio</div>
+              <p>Hello, I'm Joshua K Smith, and I'm a Software Engineer. I recieved a Certificate of Software Engineering from Galvanize/Hack Reactor in January 2020.</p>
+              <p>I attended University of Wyoming studying Computer Science for a couple of years, but ultimately decided that college wasn't for me. I currently work at Lowe's and code in my spare time; looking for a breakthrough into the industry.</p>
+            </div>
           </div>
           <div className='skills'>
             <div className='header'>Technical Skills</div>
-            <p>Front-End - JavaScript (ES6), React.js, jQuery, CSS3, HTML5, Bootstrap<br />
-            Back-End - Node.js, Express, MySQL, SQLite, MongoDB, Mongoose, PostgreSQL<br />
-            Testing - Mocha, Chai, Jest<br />
-            Tools - Git, npm, Webpack, Babel, Trello, Amazon Web Services (EC2), Loader.io, K6<br />
-            Techniques - Agile Development, Pair Programming, Test Driven Development
-            Other - C++ (Adept), Java (Beginner), Python (Beginner)</p>
+            <p><b>Front-End</b> - JavaScript (ES6), React.js, jQuery, CSS3, HTML5, Bootstrap<br />
+            <b>Back-End</b> - Node.js, Express, MySQL, SQLite, MongoDB, Mongoose, PostgreSQL<br />
+            <b>Testing</b> - Mocha, Chai, Jest<br />
+            <b>Tools</b> - Git, npm, Webpack, Babel, Trello, Amazon Web Services (EC2), Loader.io, K6<br />
+            <b>Techniques</b> - Agile Development, Pair Programming, Test Driven Development<br />
+            <b>Other</b> - C++ (Adept), Java (Beginner), Python (Beginner)</p>
           </div>
         </div>
       </div>

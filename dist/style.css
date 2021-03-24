@@ -101,3 +101,37 @@ body {
 .skills {
   margin-bottom: 2rem;
 }
+
+b {
+  display: inline;
+  font-weight: bold;
+}
+
+.bio {
+  display: flex;
+}
+
+img {
+  max-width: 100%;
+  max-height: 300px;
+}
+
+@media only screen and (max-device-width: 590px) {
+    .banner {
+      display: inline-block;
+    }
+
+    .id {
+      height: 8.7rem;
+    }
+
+    .links {
+      display: inline-block;
+      margin-left: 12.5%;
+      margin-top: 1.4rem;
+    }
+
+    .bio {
+      flex-direction: column;
+    }
+}
