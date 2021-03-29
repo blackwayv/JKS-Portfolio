@@ -132,7 +132,7 @@ img {
     .links {
       display: inline-block;
       margin-left: 12.5%;
-      margin-top: 1rem;
+      margin-top: 0.5rem;
     }
 
     .bio {
@@ -140,7 +140,7 @@ img {
     }
 
     img {
-      min-width: 100%;
+      width: 100%;
     }
 
     .bio1 {
