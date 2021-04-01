@@ -50,6 +50,7 @@ class App extends React.Component {
             <b>Tools</b> - Git, npm, Webpack, Babel, Trello, Amazon Web Services (EC2), Loader.io, K6<br />
             <b>Techniques</b> - Agile Development, Pair Programming, Test Driven Development<br />
             <b>Other</b> - C++ (Adept), Java (Beginner), Python (Beginner)</p>
+            This website is built on an Amazon Web Services (AWS) EC2 instance
           </div>
         </div>
       </div>
