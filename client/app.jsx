@@ -38,7 +38,7 @@ class App extends React.Component {
             </div>
             <div className='bio2'>
               <div className='header'>Bio</div>
-              <p>Hello, I'm Joshua K Smith, and I'm a Software Engineer. I recieved a Certificate of Software Engineering from Galvanize/Hack Reactor in January 2020.</p>
+              <p>Hello, I'm Joshua K Smith, and I'm a Full Stack Software Engineer. I recieved a Certificate of Software Engineering from Galvanize/Hack Reactor in January 2020.</p>
               <p>I attended University of Wyoming studying Computer Science for a couple of years, but ultimately decided that college wasn't for me. I currently work at Lowe's and code in my spare time; looking for a breakthrough into the industry.</p>
             </div>
           </div>
