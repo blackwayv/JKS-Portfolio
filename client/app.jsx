@@ -45,12 +45,12 @@ class App extends React.Component {
           <div className='skills'>
             <div className='header'>Technical Skills</div>
             <p><b>Front-End</b> - JavaScript (ES6), React.js, jQuery, CSS3, HTML5, Bootstrap<br />
-            <b>Back-End</b> - Node.js, Express, MySQL, SQLite, MongoDB, Mongoose, PostgreSQL<br />
+            <b>Back-End</b> - Node.js, Express, PostgreSQL, MySQL, SQLite, MongoDB, NGINX, Apache<br />
             <b>Testing</b> - Mocha, Chai, Jest<br />
             <b>Tools</b> - Git, npm, Webpack, Babel, Trello, Amazon Web Services (EC2), Loader.io, K6<br />
             <b>Techniques</b> - Agile Development, Pair Programming, Test Driven Development<br />
             <b>Other</b> - C++ (Adept), Java (Beginner), Python (Beginner)</p>
-            This website is built on an Amazon Web Services (AWS) EC2 instance
+            This website was built on an Amazon Web Services (AWS) EC2 instance
           </div>
         </div>
       </div>
