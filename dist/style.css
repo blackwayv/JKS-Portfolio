@@ -24,7 +24,7 @@ body {
 
 .bbutton {
   background-color: #676d8b;
-  border-radius: 1.2rem;
+  border-radius: 1.1rem;
   padding: 0.8rem;
   display: inline-block;
   margin-left: 1rem;
@@ -71,7 +71,7 @@ body {
   background-color: azure;
   width: 75%;
   color: #676d8b;
-  border-radius: 1.2rem;
+  border-radius: 0.4rem;
   margin-top: 2rem;
   padding: 2rem;
   font-size: 1.1rem;
@@ -114,7 +114,7 @@ b {
 
 img {
   width: 14rem;
-  border-radius: 1rem;
+  border-radius: 0.4rem;
 }
 
 .bio1 {
