@@ -34,7 +34,7 @@ class App extends React.Component {
         <div className='innerbody'>
           <div className='bio'>
             <div className='bio1'>
-              <img src='prophoto2electricboogaloo.jpg'></img>
+              <img src='prophoto2small.jpg'></img>
             </div>
             <div className='bio2'>
               <div className='header'>Bio</div>
